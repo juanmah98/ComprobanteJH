@@ -1,7 +1,7 @@
 
 #ContenidoElectronico, #ContBic,#ContInd,#ContMueble,#ContOtro{
     display: none;
-    width: 40%;
+    width: 65%;
     margin: auto;
     background-color: hsla(157, 2%, 61%,.3);
     padding:1.3%;
@@ -47,4 +47,18 @@
     max-height: 400px;
     min-height: 50px;
     font-size: 20px;
+}
+.bxElec, .bxBic{
+    width: 90%;
+    min-width: 20%;
+}
+label{
+    font-size: 20px;
+    width: 2%;
+    color: black;
+    margin: 0;
+}
+#SI,#NO{
+    margin: 0;
+    width: 20px;
 }
